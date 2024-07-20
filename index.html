@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
@@ -26,39 +26,38 @@
       <div class="blur"></div>
 
       <aside>
-        <div id="card">
+        <div class="card">
           <input
-            class="sh"
             id="input"
             placeholder="Enter city..."
             type="text"
           />
-          <button class="sh" id="myBtn" type="submit" onclick="call()">
+          <button  id="myBtn" type="submit" onclick="call()">
             Go
           </button>
         </div>
 
-        <div id="card">
-          <p id="left">Max temp</p>
+        <div class="card">
+          <p >Max temp</p>
           <p id="max"></p>
         </div>
-        <div id="card">
-          <p id="left">Max temp</p>
+        <div class="card">
+          <p >Min temp</p>
           <p id="min"></p>
         </div>
-        <div id="card">
-          <p id="left">Humidity</p>
+        <div class="card">
+          <p >Humidity</p>
           <p id="humidity"></p>
         </div>
-        <div id="card">
-          <p id="left">Cloudy</p>
+        <div class="card">
+          <p >Cloudy</p>
           <p id="cloudy"></p>
         </div>
-        <div id="card">
-          <p id="left">Wind speed</p>
+        <div class="card">
+          <p >Wind speed</p>
           <p id="windy"></p>
         </div>
-        <div id="card">
+        <div class="card">
           <p id="description"></p>
         </div>
       </aside>

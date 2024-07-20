@@ -24,7 +24,7 @@ async function getData(place) {
 
     const weatherData = new WeatherData(json);
     const today = weatherData.days[1];
-    // inputLocation.textContent=data.address
+    
 
     jsonDescription.textContent = today.description;
      jsonMax.textContent = today.tempmax + "°C";
@@ -34,7 +34,7 @@ async function getData(place) {
      jsonWindy.textContent = today.windspeed+"km/h";
     jsonTemp.textContent = today.temp + "°C";
     jsonIcon.src = `images/${today.icon}.png`;
-    //console.log(jsonTemp)
+    
     inputLocation.textContent=weatherData.resolvedAddress
     const weatherMain = today.icon;
     
