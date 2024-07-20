@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main>
+      <article>
+        <div id="box">
+          
+            <p id="temp">Temperature</p>
+          
+          
+          <p id="location">Location</p>
+          <img id="icon" alt="img" />
+        
+        </div>
+      </article>
+      <div class="blur"></div>
+
+      <aside>
+        <div id="card">
+          <input
+            class="sh"
+            id="input"
+            placeholder="Enter city..."
+            type="text"
+          />
+          <button class="sh" id="myBtn" type="submit" onclick="call()">
+            Go
+          </button>
+        </div>
+
+        <div id="card">
+          <p id="left">Max temp</p>
+          <p id="max"></p>
+        </div>
+        <div id="card">
+          <p id="left">Max temp</p>
+          <p id="min"></p>
+        </div>
+        <div id="card">
+          <p id="left">Humidity</p>
+          <p id="humidity"></p>
+        </div>
+        <div id="card">
+          <p id="left">Cloudy</p>
+          <p id="cloudy"></p>
+        </div>
+        <div id="card">
+          <p id="left">Wind speed</p>
+          <p id="windy"></p>
+        </div>
+        <div id="card">
+          <p id="description"></p>
+        </div>
+      </aside>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
