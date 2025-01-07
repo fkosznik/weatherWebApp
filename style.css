@@ -1,5 +1,5 @@
 body {
-  background-image: var(--background-image, "");
+  background-image: var(--background-image, '');
   background-color: #818181;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
   text-align: center;
   color: white;
   font-family: Roboto, sans-serif;
-  font-size: var(--fs-500);
+  font-size: 1rem;
 }
 
 main {
@@ -124,7 +124,7 @@ button:active {
   background-color: gainsboro;
   border: none;
 }
-#input[text="text"] {
+#input[text='text'] {
   border: none;
   background: transparent;
   background-color: transparent;
